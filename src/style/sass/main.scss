@@ -1,6 +1,17 @@
 @import url(../css/reset.css);
 @import url(../css/fonts.css);
 
+.rel{
+    position: relative;
+}
+.name-company{
+        
+    color: #ffffff;
+    font-family: Reef;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 header{
     height: 683px;
     background-image: url('../image/header-background.png');
@@ -11,14 +22,7 @@ header{
         padding-top: 17px;
        
     }
-    .name-company{
-        
-        color: #ffffff;
-        font-family: Reef;
-        font-size: 26px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
+    
     .nav-link{/*
         width: 57px;
         height: 8px;*/
@@ -89,4 +93,246 @@ header{
         line-height: 40px;
         text-transform: uppercase;
     }
+}
+
+.what-we-do{
+    background-image: url('../image/what-to-do-background.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 36px;
+    height: 551px;
+    .title{
+        color: #969696;
+        font-family: Raleway;
+        font-size: 37px;
+        font-weight: 300;
+        /* Text style for "WHAT" */
+        color: #000000;
+        font-family: Roboto;
+        font-weight: 700;
+        /* Text style for "" */
+        color: #000000;
+        font-family: "Raleway - Semi Bold";
+        font-weight: 400;
+        /* Text style for "We Do?" */
+        font-family: "Raleway - Light";
+        font-weight: 300;
+    }
+    .title-shadow{
+        opacity: 0.06;
+        color: #131313;
+        font-family: "Segoe UI";
+        font-size: 66px;
+        font-weight: 700;
+        /* Text style for "WHAT" */
+        color: #000000;
+    }
+    .text{
+        margin-top: 25px;
+       margin-bottom: 88px;
+       
+        width: 337px;
+        color: #595959;
+        font-family: Calibri;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+    .text-alt{
+        @extend .text;
+        margin-top: 70px;
+        margin-bottom: 0px;
+        color: #000000;
+        font-size: 18px;
+    }
+    
+    .btn-learn-more{
+        width: 185px;
+        height: 44px;
+        border-radius: 22px;
+        border: solid #33c5f5 1px;
+
+        color: #060606;
+        font-family: Raleway;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 44px;
+        text-transform: uppercase;
+    }
+}
+
+.icons-section{
+    height: 436px;
+    background-color: #45b782;
+    .text{
+      
+        max-width: 210px;
+        color: #ffffff;
+        font-family: "Lugansky V";
+        font-size: 13px;
+        font-weight: 400;
+    }
+    .icon-container{
+       
+        max-width: 248px;
+        min-height: 309px;
+    }
+    .icon-container:hover{
+        border: dashed #ffffff 1px;
+        border-radius: 60px;
+    }
+}
+
+.as-our-service{
+    height:895px;
+  /*  background-image: linear-gradient(to bottom, #ffffff 18%, #f3f3f3 37%, #6289b8 45%);*/
+ /* background-image: linear-gradient(to bottom, #ffffff 20%,#709dca 50%, #ffffff 30%);*/
+  .bag1{
+      height: 495px;
+      background-image: linear-gradient(to top, #f3f3f3 65%,  #ffffff 35%);
+  }
+  .bag2{
+    height: 400px;
+    background: radial-gradient(#7ca4d9, #5f86b4);
+    color: #ffffff;
+    .title{
+        padding-top: 173px;
+        margin-bottom: 79px;       
+        font-family: Raleway;
+        font-size: 30px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .title{     
+        font-family: 'Calibri-Bold';
+        font-size: 18px;
+        text-transform: uppercase;       
+    }
+    .text{
+        font-family: 'Raleway-Medium';
+        font-size: 16px;
+        line-height: 20px;
+    }
+  }
+  .img-abs{
+        position: absolute;
+        top:150px;
+        left: calc(50% - 314px);
+  }
+}
+.testimonials{
+    height: 485px;
+    
+    .slide-header {
+        height: 300px;
+        text-align: center;
+    }
+    .comment{
+        width: 534px;
+        height: 158px;
+        background-color: #f6f6f6;
+
+        p{
+            width: 464px;
+            
+            color: #2a2a2a;
+            font-family: "Sitka Small";
+            font-size: 18px;
+            font-style: italic;
+            /* Text style for "‘‘, ’’" */
+            font-family: "Sitka Heading";
+            font-size: 30px;
+            /* Text style for "," */
+            font-family: "Sitka Heading";
+            /* Text style for "I fell in" */
+            font-family: "Sitka Small - Italic";
+        }
+    }
+    .photo-user{
+        height: 46px;
+        width: 76px;
+    }
+    .title-shadow{
+        opacity: 0.1;
+        color: #2a2a2a;
+        font-family: Roboto;
+        font-size: 68px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .title{
+        width: 245px;
+        height: 28px;
+        color: #8c8c8c;
+        font-family: Raleway;
+        font-size: 30px;
+        font-weight: 300;
+        /* Text style for "WHAT" */
+        color: #2a2a2a;
+        font-family: Roboto;
+        font-weight: 700;
+        /* Text style for "" */
+        color: #2a2a2a;
+        font-family: "Raleway-Medium";
+        font-weight: 500;
+        /* Text style for "People Say" */
+        font-family: "Raleway-Light";
+        font-weight: 300;
+    }
+}
+
+footer{
+    height: 128px;
+    background-color: #202833;
+    
+    .grey-line{
+        height: 2px;
+        width: 100%;
+        background-color: #dadada;
+
+    }
+    .name-company{
+        padding-top: 40px;
+    }
+    .footer-link{  
+        padding-top: 44px;
+        color: #ffffff;
+        font-family: Raleway;
+        font-size: 10px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    .copyright{
+        margin-top: 47px;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 11px;
+        font-weight: 500;
+    }
+    .contact{
+        padding-top: 33px;
+    }
+    .link-contact{
+        
+        padding-bottom: 16px;
+            
+        color: #ffffff;
+        font-family: Raleway;
+        font-size: 12px;
+        font-weight: 400;
+        /* Text style for "info@snapf" */
+        font-family: Raleway;
+        /* Text style for "+213-4321-" */
+        font-family: Roboto;
+        font-weight: 400;
+    }
+    .design-by{
+        margin-top: 18px;
+        opacity: 0.23;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 11px;
+        font-weight: 500;
+    }
+
 }
