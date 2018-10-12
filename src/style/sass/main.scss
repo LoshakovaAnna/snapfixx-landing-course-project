@@ -1,2 +1,58 @@
 @import url(../css/reset.css);
 @import url(../css/fonts.css);
+
+header{
+    height: 683px;
+    background-image: url('../image/header-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .nav-line{
+        padding-left: 70px;
+        padding-top: 17px;
+       
+    }
+    .name-company{
+        
+        color: #ffffff;
+        font-family: Reef;
+        font-size: 26px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .nav-link{/*
+        width: 57px;
+        height: 8px;*/
+        color: #ffffff;
+        font-family: Raleway;
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        &:hover{
+            border-bottom: solid #ffffff 3px;
+        }
+    }
+    .main-title{
+        margin-top: 175px;
+        width: 770px;
+        color: #ffffff;
+        font-family: Kartika;
+        font-size: 71px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .btn-learn-more{
+        margin-top: 117px;
+        cursor: pointer;
+        width: 238px;
+        height: 49px;
+        background-color: #7ca5d9;
+        border-radius: 25px;
+
+                
+        color: #ffffff;
+        font-family: 'Roboto-Regular';
+        font-size: 17px;
+        line-height: 49px;
+        text-transform: uppercase;
+    }
+}
