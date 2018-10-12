@@ -56,3 +56,37 @@ header{
         text-transform: uppercase;
     }
 }
+
+.download-section{
+    height: 234px;
+    background-color: #9577a7;
+    .title{
+        padding-top: 47px;
+        color: #ffffff;
+        font-family: Raleway;
+        font-size: 25px;
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    .text{
+        margin-top: 35px;
+        margin-bottom: 40px;
+        color: #ffffff;
+        font-family: "Raleway-SemiBold";
+        font-size: 17px;
+        font-weight: 400;
+    }
+    .btn-download{
+        width: 210px;
+        height: 40px;
+        border: solid #ffffff 1px;
+        border-radius: 20px;
+                
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
+}
