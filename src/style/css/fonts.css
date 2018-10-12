@@ -7,16 +7,7 @@
          url("../fonts/Raleway-Regular.woff") format("woff"),
          url("../fonts/Raleway-Regular.ttf") format("truetype");
   }
-  @font-face {
-    font-family: "Raleway-Bold";
-    src: url('../fonts/raleway-bold.woff');
-    src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/raleway-bold.woff') format('woff'), 
-        url('../fonts/raleway-bold.ttf') format('truetype'), 
-        url('../fonts/raleway-bold.svg#ralewaybold') format('svg');
-    font-weight: 700;
-    font-style: normal;
-  }
+
   @font-face {
     font-family: "Raleway-SemiBold";
     src: url('../fonts/raleway-semibold.woff');
@@ -47,16 +38,6 @@
     font-weight: 500;
     font-style: normal;
   }
-@font-face{
-  font-family: 'Roboto-Regular';
-  src: url('../fonts/Roboto-Regular.woff') format("woff");
-  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'), 
-      url('../fonts/Roboto-Regular.woff') format('woff'), 
-      url('../fonts/Roboto-Regular.ttf') format('truetype'), 
-      url('../fonts/Roboto-Regular.woff2') format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
 /********************************/
 @font-face{
   font-family: 'Sitka-Small-Italic';
@@ -64,6 +45,43 @@
   src: url('../fonts/sitka-small-italic.eot?#iefix') format('embedded-opentype'), 
       url('../fonts/sitka-small-italic.woff') format('woff'), 
       url('../fonts/sitka-small-italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Raleway-Bold";
+  src: url('../fonts/raleway-bold.woff');
+  src: url('../fonts/raleway-bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/raleway-bold.woff') format('woff'), 
+      url('../fonts/raleway-bold.ttf') format('truetype'), 
+      url('../fonts/raleway-bold.svg#ralewaybold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Reef-Bold";
+  src: url('../fonts/Reef-Bold.woff');
+  src: url('../fonts/Reef-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Reef-Bold.woff') format('woff'), 
+      url('../fonts/Reef-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal  
+}
+@font-face{
+  font-family:"Kartika-Bold";
+  src: url('../fonts/Kartika-Bold.ttf');
+  src:  url('../fonts/Reef-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal 
+}
+
+@font-face{
+  font-family: 'Roboto-Regular';
+  src: url('../fonts/Roboto-Regular.woff') format("woff");
+  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'), 
+      url('../fonts/Roboto-Regular.woff') format('woff'), 
+      url('../fonts/Roboto-Regular.ttf') format('truetype'), 
+      url('../fonts/Roboto-Regular.woff2') format("woff2");
   font-weight: normal;
   font-style: normal;
 }

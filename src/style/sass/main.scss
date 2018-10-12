@@ -7,9 +7,8 @@
 .name-company{
         
     color: #ffffff;
-    font-family: Reef;
+    font-family: "Reef-Bold";
     font-size: 26px;
-    font-weight: 700;
     text-transform: uppercase;
 }
 header{
@@ -18,28 +17,25 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     .nav-line{
-        padding-left: 70px;
-        padding-top: 17px;
-       
+        padding-top: 17px;       
     }
     
-    .nav-link{/*
-        width: 57px;
-        height: 8px;*/
+    .nav-link{
         color: #ffffff;
-        font-family: Raleway;
+        font-family: "Raleway-Bold";
         font-size: 11px;
-        font-weight: 700;
         text-transform: uppercase;
+        border-bottom: solid transparent 3px;
         &:hover{
             border-bottom: solid #ffffff 3px;
         }
     }
+
     .main-title{
         margin-top: 175px;
-        width: 770px;
+        max-width: 770px;
         color: #ffffff;
-        font-family: Kartika;
+        font-family: "Kartika-Bold";
         font-size: 71px;
         font-weight: 700;
         text-transform: uppercase;
@@ -85,6 +81,8 @@ header{
         height: 40px;
         border: solid #ffffff 1px;
         border-radius: 20px;
+        
+        cursor: pointer;
                 
         color: #ffffff;
         font-family: Roboto;
@@ -151,6 +149,8 @@ header{
         height: 44px;
         border-radius: 22px;
         border: solid #33c5f5 1px;
+        
+        cursor: pointer;
 
         color: #060606;
         font-family: Raleway;
