@@ -4,6 +4,10 @@
 .rel{
     position: relative;
 }
+.centr-position{
+    width: 1024px;
+    margin: 0 auto;
+}
 .name-company{
         
     color: #ffffff;
@@ -63,9 +67,8 @@ header{
     .title{
         padding-top: 47px;
         color: #ffffff;
-        font-family: Raleway;
+        font-family: 'Raleway-Light';
         font-size: 25px;
-        font-weight: 300;
         text-transform: uppercase;
     }
     .text{
@@ -74,7 +77,6 @@ header{
         color: #ffffff;
         font-family: "Raleway-SemiBold";
         font-size: 17px;
-        font-weight: 400;
     }
     .btn-download{
         width: 210px;
@@ -83,13 +85,21 @@ header{
         border-radius: 20px;
         
         cursor: pointer;
-                
+        .icon-download{
+            height: 18px;
+            width: 18px;
+            margin-left: 26px;
+            margin-top: 10px;
+            margin-right: 16px;
+        }
+        .btn-text{  
         color: #ffffff;
-        font-family: Roboto;
+        font-family: 'Roboto-Light';
         font-size: 16px;
         font-weight: 300;
         line-height: 40px;
         text-transform: uppercase;
+        }
     }
 }
 
@@ -101,27 +111,31 @@ header{
     height: 551px;
     .title{
         color: #969696;
-        font-family: Raleway;
         font-size: 37px;
         font-weight: 300;
+        font-family: "Raleway-Light";
+        font-weight: 300;
         /* Text style for "WHAT" */
+       
+        /* Text style for "" 
         color: #000000;
-        font-family: Roboto;
-        font-weight: 700;
-        /* Text style for "" */
-        color: #000000;
-        font-family: "Raleway - Semi Bold";
+        font-family: "Raleway-SemiBold";
         font-weight: 400;
         /* Text style for "We Do?" */
-        font-family: "Raleway - Light";
-        font-weight: 300;
+     /*   */
+        .bold-word{
+            color: #000000;
+            font-family: 'Roboto-Bold';
+            font-weight: 700;
+        }
     }
     .title-shadow{
+        position: relative;
+        right: 60px;
+
         opacity: 0.06;
-        color: #131313;
-        font-family: "Segoe UI";
+        font-family: "SegoeUI-Bold";
         font-size: 66px;
-        font-weight: 700;
         /* Text style for "WHAT" */
         color: #000000;
     }
@@ -163,6 +177,7 @@ header{
 
 .icons-section{
     height: 436px;
+    padding-top: 64px;
     background-color: #45b782;
     .text{
       
@@ -176,11 +191,16 @@ header{
        
         max-width: 248px;
         min-height: 309px;
+        .container-half-icon{
+            height: 124px;
+            width: 100%;
+        }
     }
     .icon-container:hover{
         border: dashed #ffffff 1px;
         border-radius: 60px;
     }
+    
 }
 
 .as-our-service{
