@@ -1,11 +1,13 @@
 @import url(../css/reset.css);
 @import url(../css/fonts.css);
 
+
+/*
 .rel{
     position: relative;
-}
+}*/
 .centr-position{
-    width: 1024px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 .name-company{
@@ -63,17 +65,39 @@ header{
 
 .download-section{
     height: 234px;
-    background-color: #9577a7;
+    /*background-color: #9577a7;*/
+    background: radial-gradient(ellipse at center, rgba(149,119,167,1) 0%,rgba(149,118,167,0.96) 97%,rgba(153,123,170,0.96) 100%); 
+    .triangle-arrow{
+        width: 104px;
+        height: 37px;
+        background-image: url('../image/download-tr.png');
+        
+        position: absolute;
+        top: -35px;
+        left: 50%;
+        transform: translate(-50%,0);
+        .arrow{
+            display: block;
+            
+            color: #ffffff;
+           font-size: 17px;
+           padding-left: 20px;
+           transform: rotate(90deg);
+            
+        }
+    }
     .title{
         padding-top: 47px;
         color: #ffffff;
         font-family: 'Raleway-Light';
         font-size: 25px;
+        letter-spacing: 5px;
         text-transform: uppercase;
     }
     .text{
         margin-top: 35px;
         margin-bottom: 40px;
+       
         color: #ffffff;
         font-family: "Raleway-SemiBold";
         font-size: 17px;
@@ -109,20 +133,17 @@ header{
     background-position: right;
     background-position-y: 36px;
     height: 551px;
+    padding-top: 66px;
+    .padding-left-70{
+        padding-left: 70px;
+    }
     .title{
         color: #969696;
         font-size: 37px;
         font-weight: 300;
         font-family: "Raleway-Light";
         font-weight: 300;
-        /* Text style for "WHAT" */
        
-        /* Text style for "" 
-        color: #000000;
-        font-family: "Raleway-SemiBold";
-        font-weight: 400;
-        /* Text style for "We Do?" */
-     /*   */
         .bold-word{
             color: #000000;
             font-family: 'Roboto-Bold';
@@ -132,16 +153,18 @@ header{
     .title-shadow{
         position: relative;
         right: 60px;
-
+        line-height: 43px;
         opacity: 0.06;
         font-family: "SegoeUI-Bold";
         font-size: 66px;
-        /* Text style for "WHAT" */
-        color: #000000;
+        color: #131313;
+        .title-shadow-dark{
+            color: #000000;
+        }
     }
     .text{
         margin-top: 25px;
-       margin-bottom: 88px;
+        margin-bottom: 88px;
        
         width: 337px;
         color: #595959;
@@ -156,6 +179,8 @@ header{
         margin-bottom: 0px;
         color: #000000;
         font-size: 18px;
+        .altcolortext{
+            color: #111111;}
     }
     
     .btn-learn-more{
@@ -191,10 +216,8 @@ header{
        
         max-width: 248px;
         min-height: 309px;
-        .container-half-icon{
-            height: 124px;
-            width: 100%;
-        }
+       .image-icon{
+           }
     }
     .icon-container:hover{
         border: dashed #ffffff 1px;

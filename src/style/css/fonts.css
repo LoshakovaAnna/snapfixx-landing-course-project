@@ -1,5 +1,4 @@
- 
-  @font-face {
+@font-face {
     font-family: "Raleway-Regular";
     font-weight: 400;
     src: url("../fonts/Raleway-Regular.woff");
@@ -80,7 +79,7 @@
 @font-face{
   font-family:"Kartika-Bold";
   src: url('../fonts/Kartika-Bold.ttf');
-  src:  url('../fonts/Reef-Bold.ttf') format('truetype');
+  src:  url('../fonts/Kartika-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal 
 }
@@ -113,4 +112,10 @@
       url('../fonts/SegoeUI-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal  
+}
+@font-face{
+  font-family: 'FontAwesome-Webfont';
+  src: url('../fonts/fontawesome-webfont.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
