@@ -1,5 +1,6 @@
 @import url(../css/reset.css);
 @import url(../css/fonts.css);
+@import url(../css/font-awesome.min.css);
 
 
 /*
@@ -415,4 +416,13 @@ footer{
         font-size: 11px;
     }
 
+}
+.font-icon-try{
+    height: 300px;
+    width: 300px;
+    background-color: #45b782;
+    color: #ffffff;
+    font-size: 30px;
+    
+  font-family: 'FontAwesome-Webfont';
 }
