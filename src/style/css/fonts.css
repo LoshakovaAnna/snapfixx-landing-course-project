@@ -1,11 +1,4 @@
-@font-face {
-    font-family: "Raleway-Regular";
-    font-weight: 400;
-    src: url("../fonts/Raleway-Regular.woff");
-    src: url("../fonts/Raleway-Regular.eot?#iefix") format("embedded-opentype"),
-         url("../fonts/Raleway-Regular.woff") format("woff"),
-         url("../fonts/Raleway-Regular.ttf") format("truetype");
-  }
+
 
  
   @font-face {
@@ -18,17 +11,26 @@
     font-weight: 800;
     font-style: normal;
   }
-  @font-face {
-    font-family: "Raleway-Medium";
-    src: url('../fonts/raleway-medium.woff');
-    src: url('../fonts/raleway-medium.eot?#iefix') format('embedded-opentype'),
-          url('../fonts/raleway-medium.woff') format('woff'),
-          url('../fonts/raleway-medium.ttf') format('truetype'), 
-          url('../fonts/raleway-medium.svg#ralewaymedium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-  }
+  
 /********************************/
+@font-face {
+  font-family: "Raleway-Regular";
+  font-weight: 400;
+  src: url("../fonts/Raleway-Regular.woff");
+  src: url("../fonts/Raleway-Regular.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Raleway-Regular.woff") format("woff"),
+       url("../fonts/Raleway-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Raleway-Medium";
+  src: url('../fonts/raleway-medium.woff');
+  src: url('../fonts/raleway-medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/raleway-medium.woff') format('woff'),
+        url('../fonts/raleway-medium.ttf') format('truetype'), 
+        url('../fonts/raleway-medium.svg#ralewaymedium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
 @font-face{
   font-family: 'Sitka-Small-Italic';
   src: url('../fonts/sitka-small-italic.woff') format("woff");
@@ -105,6 +107,15 @@
   font-style: normal;
 }
 @font-face{
+  font-family: 'Roboto-Bold';
+  src: url('../fonts/RobotoBold.woff') format("woff");
+  src: url('../fonts/RobotoBold.eot?#iefix') format('embedded-opentype'), 
+      url('../fonts/RobotoBold.woff') format('woff'), 
+      url('../fonts/RobotoBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face{
   font-family: "SegoeUI-Bold";
   src: url('../fonts/SegoeUI-Bold.woff');
   src: url('../fonts/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
@@ -114,8 +125,28 @@
   font-style: normal  
 }
 @font-face{
+  font-family: "LuganskyV";
+  src: url('../fonts/LuganskiyV.woff');
+  src: 
+      url('../fonts/LuganskiyV.woff') format('woff'), 
+      url('../fonts/LuganskiyV.ttf') format('truetype');
+  
+  font-style: normal  
+}
+@font-face{
   font-family: 'FontAwesome-Webfont';
   src: url('../fonts/fontawesome-webfont.woff') format("woff");
   font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {     
+  font-family: 'Calibri-Bold';
+  src: url('../fonts/calibri-bold.woff');
+  src:  url('../fonts/calibri-bold.woff') format('woff'),
+        url('../fonts/calibri-bold.ttf') format('truetype'), 
+        url('../fonts/calibri-bold.svg#ralewaymedium') format('svg');
+  font-weight: 700;
   font-style: normal;
 }

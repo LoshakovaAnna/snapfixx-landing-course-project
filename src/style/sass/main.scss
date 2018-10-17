@@ -200,72 +200,108 @@ header{
     }
 }
 
-.icons-section{
+.icons-section{/*
     height: 436px;
-    padding-top: 64px;
+    padding-top: 64px;*/
     background-color: #45b782;
-    .text{
-      
-        max-width: 210px;
-        color: #ffffff;
-        font-family: "Lugansky V";
-        font-size: 13px;
-        font-weight: 400;
-    }
+
+    
     .icon-container{
-       
+        margin-top: 64px;
+        margin-bottom: 64px;
         max-width: 248px;
         min-height: 309px;
-       .image-icon{
-           }
+        border: dashed transparent 1px;
+        .container-half-icon{
+            height: 185px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }        
+        .container-half-text{
+           .text{
+            max-width: 210px;
+            text-align: center;
+            margin-left: 15px;
+            margin-right: 15px; 
+            color: #ffffff;
+            font-family: "LuganskyV";
+            font-size: 13px;
+            font-weight: 400;
+            }
+        }
     }
     .icon-container:hover{
         border: dashed #ffffff 1px;
         border-radius: 60px;
-    }
-    
+    }    
 }
-
 .as-our-service{
     height:895px;
-  /*  background-image: linear-gradient(to bottom, #ffffff 18%, #f3f3f3 37%, #6289b8 45%);*/
- /* background-image: linear-gradient(to bottom, #ffffff 20%,#709dca 50%, #ffffff 30%);*/
-  .bag1{
-      height: 495px;
-      background-image: linear-gradient(to top, #f3f3f3 65%,  #ffffff 35%);
-  }
-  .bag2{
-    height: 400px;
-    background: radial-gradient(#7ca4d9, #5f86b4);
-    color: #ffffff;
-    .title{
-        padding-top: 173px;
-        margin-bottom: 79px;       
-        font-family: Raleway;
-        font-size: 30px;
-        font-weight: 400;
-        text-transform: uppercase;
+    /*  background-image: linear-gradient(to bottom, #ffffff 18%, #f3f3f3 37%, #6289b8 45%);*/
+    /* background-image: linear-gradient(to bottom, #ffffff 20%,#709dca 50%, #ffffff 30%);*/
+    .gradient-white-grey{
+        height: 495px;
+        background-image: linear-gradient(to top, #f3f3f3 65%,  #ffffff 35%);
     }
-    .title{     
-        font-family: 'Calibri-Bold';
-        font-size: 18px;
-        text-transform: uppercase;       
+    .radial-gradient-blue{
+        height: 400px;
+        background: radial-gradient(#7ca4d9, #5f86b4);
+        color: #ffffff;
+        .title{
+            padding-top: 173px;
+            margin-bottom: 79px;       
+            font-family: "Raleway-Regular";
+            font-size: 30px;
+            letter-spacing: 10px;
+            text-transform: uppercase;
+        }
+        .subtitle{     
+            font-family: 'Calibri-Bold';
+            font-size: 18px;
+            text-transform: uppercase;       
+        }
+        .text{
+        
+            font-family: "Raleway-Regular";
+            font-size: 16px;
+            line-height: 20px;
+        }
+        .text-alt{
+            @extend .text;
+            font-family: 'Raleway-Medium';
+        }
     }
-    .text{
-        font-family: 'Raleway-Medium';
-        font-size: 16px;
-        line-height: 20px;
-    }
-  }
-  .img-abs{
+    .img-abs{
         position: absolute;
         top:150px;
         left: calc(50% - 314px);
-  }
+    }
 }
 .testimonials{
     height: 485px;
-    
+    padding-top: 40px;
+
+    .title-shadow{
+        margin-left: 55px;
+        opacity: 0.1;
+        color: #2a2a2a;
+        font-family: 'Roboto-Bold';
+        font-size: 68px;
+        text-transform: uppercase;
+        line-height: 23px;
+    }
+    .title{
+        margin-bottom: 55px;
+        color: #8c8c8c;       
+        font-size: 30px;       
+        font-family: "Raleway-Light";
+        .title-alt{
+            font-family: 'Roboto-Bold';
+            color: #2a2a2a;
+        }
+    }
+
     .slide-header {
         height: 300px;
         text-align: center;
@@ -295,38 +331,15 @@ header{
         height: 46px;
         width: 76px;
     }
-    .title-shadow{
-        opacity: 0.1;
-        color: #2a2a2a;
-        font-family: Roboto;
-        font-size: 68px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-    .title{
-        width: 245px;
-        height: 28px;
-        color: #8c8c8c;
-        font-family: Raleway;
-        font-size: 30px;
-        font-weight: 300;
-        /* Text style for "WHAT" */
-        color: #2a2a2a;
-        font-family: Roboto;
-        font-weight: 700;
-        /* Text style for "" */
-        color: #2a2a2a;
-        font-family: "Raleway-Medium";
-        font-weight: 500;
-        /* Text style for "People Say" */
-        font-family: "Raleway-Light";
-        font-weight: 300;
-    }
+    
 }
 
 footer{
     height: 128px;
     background-color: #202833;
+   
+        
+    
     
     .grey-line{
         height: 2px;
