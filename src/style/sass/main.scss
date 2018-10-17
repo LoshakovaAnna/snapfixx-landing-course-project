@@ -66,24 +66,37 @@ header{
 
 .download-section{
     height: 234px;
-    /*background-color: #9577a7;*/
+    /*background-color: #9577a7;*//*
     background: radial-gradient(ellipse at center, rgba(149,119,167,1) 0%,rgba(149,118,167,0.96) 97%,rgba(153,123,170,0.96) 100%); 
+    */
+    background: radial-gradient(#a58ab6, #8c709d);
+    /*, url('../image/background--.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode:multiply;*/
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9577a7+0,9578a8+18,9879aa+19,977aaa+24,9a7bab+24,987caa+25,9b7cac+28,a388b4+40,a68ab6+47,a489b5+53,9b7ead+64,9d7eae+65,9a7eac+65,9c7dad+66,997cab+67,997aaa+72,9679a9+73,9879aa+74,9578a8+76,9577a7+100 */
+              //  background: rgb(149,119,167); /* Old browsers */
+               // background: -moz-radial-gradient(center, ellipse cover, rgba(149,119,167,1) 0%, rgba(149,120,168,1) 18%, rgba(152,121,170,1) 19%, rgba(151,122,170,1) 24%, rgba(154,123,171,1) 24%, rgba(152,124,170,1) 25%, rgba(155,124,172,1) 28%, rgba(163,136,180,1) 40%, rgba(166,138,182,1) 47%, rgba(164,137,181,1) 53%, rgba(155,126,173,1) 64%, rgba(157,126,174,1) 65%, rgba(154,126,172,1) 65%, rgba(156,125,173,1) 66%, rgba(153,124,171,1) 67%, rgba(153,122,170,1) 72%, rgba(150,121,169,1) 73%, rgba(152,121,170,1) 74%, rgba(149,120,168,1) 76%, rgba(149,119,167,1) 100%); /* FF3.6-15 */
+               // background: -webkit-radial-gradient(center, ellipse cover, rgba(149,119,167,1) 0%,rgba(149,120,168,1) 18%,rgba(152,121,170,1) 19%,rgba(151,122,170,1) 24%,rgba(154,123,171,1) 24%,rgba(152,124,170,1) 25%,rgba(155,124,172,1) 28%,rgba(163,136,180,1) 40%,rgba(166,138,182,1) 47%,rgba(164,137,181,1) 53%,rgba(155,126,173,1) 64%,rgba(157,126,174,1) 65%,rgba(154,126,172,1) 65%,rgba(156,125,173,1) 66%,rgba(153,124,171,1) 67%,rgba(153,122,170,1) 72%,rgba(150,121,169,1) 73%,rgba(152,121,170,1) 74%,rgba(149,120,168,1) 76%,rgba(149,119,167,1) 100%); /* Chrome10-25,Safari5.1-6 */
+               // background: radial-gradient(ellipse at center, rgba(149,119,167,1) 0%,rgba(149,120,168,1) 18%,rgba(152,121,170,1) 19%,rgba(151,122,170,1) 24%,rgba(154,123,171,1) 24%,rgba(152,124,170,1) 25%,rgba(155,124,172,1) 28%,rgba(163,136,180,1) 40%,rgba(166,138,182,1) 47%,rgba(164,137,181,1) 53%,rgba(155,126,173,1) 64%,rgba(157,126,174,1) 65%,rgba(154,126,172,1) 65%,rgba(156,125,173,1) 66%,rgba(153,124,171,1) 67%,rgba(153,122,170,1) 72%,rgba(150,121,169,1) 73%,rgba(152,121,170,1) 74%,rgba(149,120,168,1) 76%,rgba(149,119,167,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+               // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9577a7', endColorstr='#9577a7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
     .triangle-arrow{
-        width: 104px;
-        height: 37px;
-        background-image: url('../image/download-tr.png');
+        width: 94px;
+        height: 33px;
+        background-image: url('../image/download-tr3..png');
         
         position: absolute;
-        top: -35px;
+        top: -31px;
         left: 50%;
         transform: translate(-50%,0);
         .arrow{
             display: block;
-            
+
+            font-family: 'FontAwesome-Webfont';
             color: #ffffff;
-           font-size: 17px;
-           padding-left: 20px;
-           transform: rotate(90deg);
+            font-size: 20px;
+           // padding-left: 20px;
+            margin-top: 10px;
             
         }
     }
@@ -304,18 +317,21 @@ header{
     }
 
     .slide-header {
-        height: 300px;
+        min-height: 300px;
     
         .comment{
             width: 534px;
-            height: 158px;
+            min-height: 158px;
             background-color: #f6f6f6;
             display: flex;
-            align-items: center;
+            align-items: start;
             justify-content: center;
             margin-bottom: 62px;
+            padding-top: 25px;
+            padding-bottom: 48px;
 
             .comment-text-style{ 
+               
                 display: block;
                 width: 464px;            
                 color: #2a2a2a;
@@ -357,8 +373,13 @@ header{
        
     }
     
-    .carousel-control-next-icon, .carousel-control-next-icon{
-        //background-image: change
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        background-image: none;
+        .f-color{ 
+            color:#9577a7;
+            font-size: 30px;
+    
+            font-family: 'FontAwesome-Webfont';}
     }
 }
 
@@ -416,13 +437,4 @@ footer{
         font-size: 11px;
     }
 
-}
-.font-icon-try{
-    height: 300px;
-    width: 300px;
-    background-color: #45b782;
-    color: #ffffff;
-    font-size: 30px;
-    
-  font-family: 'FontAwesome-Webfont';
 }
