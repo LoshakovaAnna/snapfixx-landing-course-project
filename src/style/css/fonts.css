@@ -1,6 +1,4 @@
 
-
- 
   @font-face {
     font-family: "Raleway-ExtraBold";
     src: url('../fonts/raleway-extrabold.woff');
@@ -116,6 +114,15 @@
   font-style: normal;
 }
 @font-face{
+  font-family: 'Roboto-Medium';
+  src: url('../fonts/Roboto-Medium.woff') format("woff");
+  src: url('../fonts/Roboto-Medium.woff') format('woff'), 
+      url('../fonts/Roboto-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face{
   font-family: "SegoeUI-Bold";
   src: url('../fonts/SegoeUI-Bold.woff');
   src: url('../fonts/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
@@ -146,7 +153,16 @@
   src: url('../fonts/calibri-bold.woff');
   src:  url('../fonts/calibri-bold.woff') format('woff'),
         url('../fonts/calibri-bold.ttf') format('truetype'), 
-        url('../fonts/calibri-bold.svg#ralewaymedium') format('svg');
+        url('../fonts/calibri-bold.svg#calibribold') format('svg');
   font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {     
+  font-family: 'NewsGothicBT-RomanCondensed';
+  src: url('../fonts/NewsGothicBT-RomanCondensed.woff');
+  src:  url('../fonts/NewsGothicBT-RomanCondensed.woff') format('woff'),
+        url('../fonts/NewsGothicBT-RomanCondensed.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
 }

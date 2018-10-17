@@ -304,34 +304,61 @@ header{
 
     .slide-header {
         height: 300px;
-        text-align: center;
-    }
-    .comment{
-        width: 534px;
-        height: 158px;
-        background-color: #f6f6f6;
+    
+        .comment{
+            width: 534px;
+            height: 158px;
+            background-color: #f6f6f6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 62px;
 
-        p{
-            width: 464px;
-            
-            color: #2a2a2a;
-            font-family: "Sitka Small";
-            font-size: 18px;
-            font-style: italic;
-            /* Text style for "‘‘, ’’" */
-            font-family: "Sitka Heading";
-            font-size: 30px;
-            /* Text style for "," */
-            font-family: "Sitka Heading";
-            /* Text style for "I fell in" */
-            font-family: "Sitka Small - Italic";
+            .comment-text-style{ 
+                display: block;
+                width: 464px;            
+                color: #2a2a2a;
+                
+                font-size: 18px;
+                font-family: 'Sitka-Small-Italic';
+            }
+            .comment-text::before{
+                content:"\201C";	
+                font-size: 30px;
+                color: #2a2a2a;
+                font-family: "Sitka Heading Italic";
+            }
+            .comment-text::after{ 
+                content:"\201E";	
+                font-size: 30px;
+                color: #2a2a2a;
+                font-family: "Sitka Heading Italic";
+                position: absolute;
+                bottom: -22px;
+                right: 0; 
+                transform: translate(-50%,0);
+                text-align: left;
+            }
+        
         }
-    }
-    .photo-user{
-        height: 46px;
-        width: 76px;
+        .user{ 
+            align-items: center;
+            justify-content: center;
+            
+            font-family: 'Roboto-Light';
+            font-size: 18px;
+            .photo-user{
+                height: 46px;
+                
+            }
+
+        }
+       
     }
     
+    .carousel-control-next-icon, .carousel-control-next-icon{
+        //background-image: change
+    }
 }
 
 footer{
@@ -348,47 +375,44 @@ footer{
 
     }
     .name-company{
-        padding-top: 40px;
+        padding-top: 40px;        
+        font-family: 'NewsGothicBT-RomanCondensed';
+        font-size: 25px;
     }
     .footer-link{  
         padding-top: 44px;
-        color: #ffffff;
-        font-family: Raleway;
+        color: #ffffff;        
+        font-family: "Raleway-Medium";
         font-size: 10px;
-        font-weight: 500;
         text-transform: uppercase;
     }
     .copyright{
         margin-top: 47px;
-        color: #ffffff;
-        font-family: Roboto;
+        color: #ffffff;        
+        font-family: 'Roboto-Medium';
         font-size: 11px;
-        font-weight: 500;
+        
     }
     .contact{
         padding-top: 33px;
     }
-    .link-contact{
-        
-        padding-bottom: 16px;
-            
-        color: #ffffff;
-        font-family: Raleway;
-        font-size: 12px;
-        font-weight: 400;
-        /* Text style for "info@snapf" */
-        font-family: Raleway;
-        /* Text style for "+213-4321-" */
-        font-family: Roboto;
-        font-weight: 400;
+    .link-contact{        
+        padding-bottom: 16px;            
+        color: #ffffff;        
+        font-size: 12px; 
+        .mail-font{
+            font-family: 'Raleway-Regular';
+        }
+        .tel-font{
+            font-family: 'Roboto-Regular';            
+        }
     }
     .design-by{
         margin-top: 18px;
         opacity: 0.23;
-        color: #ffffff;
-        font-family: Roboto;
+        color: #ffffff;        
+        font-family: 'Roboto-Medium';
         font-size: 11px;
-        font-weight: 500;
     }
 
 }
