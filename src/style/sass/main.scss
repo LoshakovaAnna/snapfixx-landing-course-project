@@ -2,17 +2,11 @@
 @import url(../css/fonts.css);
 @import url(../css/font-awesome.min.css);
 
-
-/*
-.rel{
-    position: relative;
-}*/
 .centr-position{
     max-width: 1024px;
     margin: 0 auto;
 }
-.name-company{
-        
+.name-company{        
     color: #ffffff;
     font-family: "Reef-Bold";
     font-size: 26px;
@@ -23,10 +17,17 @@ header{
     background-image: url('../image/header-background.png');
     background-repeat: no-repeat;
     background-size: cover;
+    .nav-icon{
+        color: #ffffff;
+    }
+    .navbar-toggler{        
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius: 0.25rem;
+    }
     .nav-line{
         padding-top: 17px;       
-    }
-    
+    }    
     .nav-link{
         color: #ffffff;
         font-family: "Raleway-Bold";
@@ -44,7 +45,6 @@ header{
         color: #ffffff;
         font-family: "Kartika-Bold";
         font-size: 71px;
-        font-weight: 700;
         text-transform: uppercase;
     }
     .btn-learn-more{
@@ -55,7 +55,6 @@ header{
         background-color: #7ca5d9;
         border-radius: 25px;
 
-                
         color: #ffffff;
         font-family: 'Roboto-Regular';
         font-size: 17px;
@@ -64,23 +63,11 @@ header{
     }
 }
 
-.download-section{
-    height: 234px;
-    /*background-color: #9577a7;*//*
-    background: radial-gradient(ellipse at center, rgba(149,119,167,1) 0%,rgba(149,118,167,0.96) 97%,rgba(153,123,170,0.96) 100%); 
-    */
+.download-section{    
+    padding-bottom: 39px;  
     background: radial-gradient(#a58ab6, #8c709d);
-    /*, url('../image/background--.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-blend-mode:multiply;*/
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#9577a7+0,9578a8+18,9879aa+19,977aaa+24,9a7bab+24,987caa+25,9b7cac+28,a388b4+40,a68ab6+47,a489b5+53,9b7ead+64,9d7eae+65,9a7eac+65,9c7dad+66,997cab+67,997aaa+72,9679a9+73,9879aa+74,9578a8+76,9577a7+100 */
-              //  background: rgb(149,119,167); /* Old browsers */
-               // background: -moz-radial-gradient(center, ellipse cover, rgba(149,119,167,1) 0%, rgba(149,120,168,1) 18%, rgba(152,121,170,1) 19%, rgba(151,122,170,1) 24%, rgba(154,123,171,1) 24%, rgba(152,124,170,1) 25%, rgba(155,124,172,1) 28%, rgba(163,136,180,1) 40%, rgba(166,138,182,1) 47%, rgba(164,137,181,1) 53%, rgba(155,126,173,1) 64%, rgba(157,126,174,1) 65%, rgba(154,126,172,1) 65%, rgba(156,125,173,1) 66%, rgba(153,124,171,1) 67%, rgba(153,122,170,1) 72%, rgba(150,121,169,1) 73%, rgba(152,121,170,1) 74%, rgba(149,120,168,1) 76%, rgba(149,119,167,1) 100%); /* FF3.6-15 */
-               // background: -webkit-radial-gradient(center, ellipse cover, rgba(149,119,167,1) 0%,rgba(149,120,168,1) 18%,rgba(152,121,170,1) 19%,rgba(151,122,170,1) 24%,rgba(154,123,171,1) 24%,rgba(152,124,170,1) 25%,rgba(155,124,172,1) 28%,rgba(163,136,180,1) 40%,rgba(166,138,182,1) 47%,rgba(164,137,181,1) 53%,rgba(155,126,173,1) 64%,rgba(157,126,174,1) 65%,rgba(154,126,172,1) 65%,rgba(156,125,173,1) 66%,rgba(153,124,171,1) 67%,rgba(153,122,170,1) 72%,rgba(150,121,169,1) 73%,rgba(152,121,170,1) 74%,rgba(149,120,168,1) 76%,rgba(149,119,167,1) 100%); /* Chrome10-25,Safari5.1-6 */
-               // background: radial-gradient(ellipse at center, rgba(149,119,167,1) 0%,rgba(149,120,168,1) 18%,rgba(152,121,170,1) 19%,rgba(151,122,170,1) 24%,rgba(154,123,171,1) 24%,rgba(152,124,170,1) 25%,rgba(155,124,172,1) 28%,rgba(163,136,180,1) 40%,rgba(166,138,182,1) 47%,rgba(164,137,181,1) 53%,rgba(155,126,173,1) 64%,rgba(157,126,174,1) 65%,rgba(154,126,172,1) 65%,rgba(156,125,173,1) 66%,rgba(153,124,171,1) 67%,rgba(153,122,170,1) 72%,rgba(150,121,169,1) 73%,rgba(152,121,170,1) 74%,rgba(149,120,168,1) 76%,rgba(149,119,167,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-               // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9577a7', endColorstr='#9577a7',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-    .triangle-arrow{
+
+   .triangle-arrow{
         width: 94px;
         height: 33px;
         background-image: url('../image/download-tr3..png');
@@ -91,13 +78,10 @@ header{
         transform: translate(-50%,0);
         .arrow{
             display: block;
-
             font-family: 'FontAwesome-Webfont';
             color: #ffffff;
             font-size: 20px;
-           // padding-left: 20px;
-            margin-top: 10px;
-            
+            margin-top: 10px;            
         }
     }
     .title{
@@ -110,8 +94,7 @@ header{
     }
     .text{
         margin-top: 35px;
-        margin-bottom: 40px;
-       
+        margin-bottom: 40px;       
         color: #ffffff;
         font-family: "Raleway-SemiBold";
         font-size: 17px;
@@ -120,8 +103,7 @@ header{
         width: 210px;
         height: 40px;
         border: solid #ffffff 1px;
-        border-radius: 20px;
-        
+        border-radius: 20px;        
         cursor: pointer;
         .icon-download{
             height: 18px;
@@ -154,14 +136,10 @@ header{
     .title{
         color: #969696;
         font-size: 37px;
-        font-weight: 300;
-        font-family: "Raleway-Light";
-        font-weight: 300;
-       
+        font-family: "Raleway-Light";       
         .bold-word{
             color: #000000;
             font-family: 'Roboto-Bold';
-            font-weight: 700;
         }
     }
     .title-shadow{
@@ -180,12 +158,10 @@ header{
         margin-top: 25px;
         margin-bottom: 88px;
        
-        width: 337px;
+        max-width: 337px;
         color: #595959;
-        font-family: Calibri;
+        font-family: 'Calibri';
         font-size: 16px;
-        font-weight: 400;
-
     }
     .text-alt{
         @extend .text;
@@ -194,36 +170,32 @@ header{
         color: #000000;
         font-size: 18px;
         .altcolortext{
-            color: #111111;}
-    }
-    
+            color: #111111;
+        }
+    }   
+
     .btn-learn-more{
         width: 185px;
         height: 44px;
         border-radius: 22px;
-        border: solid #33c5f5 1px;
-        
+        border: solid #33c5f5 1px;        
         cursor: pointer;
 
         color: #060606;
-        font-family: Raleway;
+        font-family: "Raleway-Medium";    
         font-size: 17px;
-        font-weight: 500;
         line-height: 44px;
         text-transform: uppercase;
     }
 }
 
-.icons-section{/*
-    height: 436px;
-    padding-top: 64px;*/
+.icons-section{
     background-color: #45b782;
-
-    
-    .icon-container{
-        margin-top: 64px;
-        margin-bottom: 64px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    .icon-container{       
         max-width: 248px;
+        min-width: 120px;
         min-height: 309px;
         border: dashed transparent 1px;
         .container-half-icon{
@@ -250,10 +222,8 @@ header{
         border-radius: 60px;
     }    
 }
+
 .as-our-service{
-    height:895px;
-    /*  background-image: linear-gradient(to bottom, #ffffff 18%, #f3f3f3 37%, #6289b8 45%);*/
-    /* background-image: linear-gradient(to bottom, #ffffff 20%,#709dca 50%, #ffffff 30%);*/
     .gradient-white-grey{
         height: 495px;
         background-image: linear-gradient(to top, #f3f3f3 65%,  #ffffff 35%);
@@ -275,8 +245,7 @@ header{
             font-size: 18px;
             text-transform: uppercase;       
         }
-        .text{
-        
+        .text{        
             font-family: "Raleway-Regular";
             font-size: 16px;
             line-height: 20px;
@@ -293,9 +262,7 @@ header{
     }
 }
 .testimonials{
-    height: 485px;
     padding-top: 40px;
-
     .title-shadow{
         margin-left: 55px;
         opacity: 0.1;
@@ -315,13 +282,9 @@ header{
             color: #2a2a2a;
         }
     }
-
     .slide-header {
-        min-height: 300px;
-    
         .comment{
             width: 534px;
-            min-height: 158px;
             background-color: #f6f6f6;
             display: flex;
             align-items: start;
@@ -329,11 +292,9 @@ header{
             margin-bottom: 62px;
             padding-top: 25px;
             padding-bottom: 48px;
-
-            .comment-text-style{ 
-               
+            .comment-text-style{                
                 display: block;
-                width: 464px;            
+                max-width: 464px;            
                 color: #2a2a2a;
                 
                 font-size: 18px;
@@ -355,46 +316,36 @@ header{
                 right: 0; 
                 transform: translate(-50%,0);
                 text-align: left;
-            }
-        
+            }        
         }
         .user{ 
             align-items: center;
-            justify-content: center;
-            
+            justify-content: center;            
             font-family: 'Roboto-Light';
             font-size: 18px;
             .photo-user{
-                height: 46px;
-                
+                height: 46px;                
             }
-
-        }
-       
-    }
-    
+            margin-bottom: 65px;
+        }       
+    }    
     .carousel-control-next-icon, .carousel-control-prev-icon{
         background-image: none;
         .f-color{ 
             color:#9577a7;
-            font-size: 30px;
-    
-            font-family: 'FontAwesome-Webfont';}
+            font-size: 30px;    
+            font-family: 'FontAwesome-Webfont';
+        }
     }
 }
 
 footer{
     height: 128px;
     background-color: #202833;
-   
-        
-    
-    
     .grey-line{
         height: 2px;
         width: 100%;
         background-color: #dadada;
-
     }
     .name-company{
         padding-top: 40px;        
@@ -412,8 +363,7 @@ footer{
         margin-top: 47px;
         color: #ffffff;        
         font-family: 'Roboto-Medium';
-        font-size: 11px;
-        
+        font-size: 11px;        
     }
     .contact{
         padding-top: 33px;
@@ -436,5 +386,107 @@ footer{
         font-family: 'Roboto-Medium';
         font-size: 11px;
     }
-
 }
+
+
+
+@media screen and (max-width: 600px){ 
+    header{
+        .main-title{
+            font-size: 40px;
+        }
+    }    
+    .what-we-do{
+        background-image: none;
+        .padding-left-70{
+            padding-left: 10px;
+        }
+       .title-shadow{
+        right: 10px;
+        line-height: 28px;
+        font-size: 44px;
+       }
+    }
+    
+    .as-our-service{
+       .img-abs{
+            width:90%;
+            left: 50%;
+            transform: translate(-50%,0);        
+        }
+        .radial-gradient-blue{
+            height: 300px;
+            .title{
+                padding-top: 85px;
+            }
+            .subtitle{
+                font-size: 12px;
+                line-height: 14px
+            }
+            .text{
+                font-size: 11px;
+                line-height: 12px;
+            }
+        }
+    }
+    .testimonials{
+        .title-shadow{
+            font-size: 42px;
+            text-align: left;
+            margin-left: 2px;
+        }
+        .slide-header {
+            min-height: 250px;
+             .comment{
+                width: 75%;                
+                .comment-text{
+                    width: 75%;
+                    .comment-text-style{
+                        font-size: 12px;
+                    }
+                }
+                .comment-text::before{                    	
+                    font-size: 20px;
+                }
+                .comment-text::after{ 
+                    font-size: 20px;
+                    bottom: -12px;                    
+                }      
+            }
+        }
+        .user{            
+            font-size: 12px;
+            .photo-user{
+                height: 35px;                
+            }
+            margin-bottom: 45px;
+        }
+    }
+    footer{ 
+        .center-column {
+            display: none;
+        }
+    } 
+}
+@media screen and (min-width: 601px) 
+and (max-width: 800px){
+    .what-we-do{
+        background-image: none;
+    }
+    .footer-link{
+        display: none;
+    }
+    .copyright{
+        padding-top: 54px;
+    }
+}
+/*
+  .download-section, 
+    .what-we-do, 
+    .icons-section, 
+    .as-our-service, 
+    .testimonials, 
+    footer{
+        display: none;    
+    }
+*/

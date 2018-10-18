@@ -1,4 +1,3 @@
-
   @font-face {
     font-family: "Raleway-ExtraBold";
     src: url('../fonts/raleway-extrabold.woff');
@@ -147,7 +146,14 @@
   font-style: normal;
 }
 
-
+@font-face {     
+  font-family: 'Calibri';
+  src: url('../fonts/calibri.woff') format('woff');
+  src:  url('../fonts/calibri.woff') format('woff'),
+        url('../fonts/calibri.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
 @font-face {     
   font-family: 'Calibri-Bold';
   src: url('../fonts/calibri-bold.woff');
